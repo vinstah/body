@@ -46,7 +46,7 @@ define('SS_DATABASE_USERNAME', 'root');
 /**
  * The database password (mandatory)
  */
-define('SS_DATABASE_PASSWORD', 'lampp');
+define('SS_DATABASE_PASSWORD', '');
 
 /**
  * Set the database name.
@@ -115,6 +115,5 @@ define('SS_ERROR_LOG', 'silverstripe.log');
 /**
  * This is used by sake to know which directory points to which URL
  */
-global $_FILE_TO_URL_MAPPING; 
+global $_FILE_TO_URL_MAPPING;
 $_FILE_TO_URL_MAPPING[__DIR__] = 'http://example.com';
-

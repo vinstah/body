@@ -15,7 +15,7 @@ body {
 }
 	.wrapper {
 		.make-row();
-	}	
+	}
 #top-bar-background {
 	float:left;
 	width:100%;
@@ -23,6 +23,104 @@ body {
 	padding-top:5px;
 	padding-bottom:5px;
 }
+
+#dashboard-navigation {
+	.make-sm-column(24);
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+	ul {
+		background-color:#ccc;
+		float:left;
+		width:100%;
+		margin:0px;
+		padding:0px;
+		li {
+			float:left;
+			list-style:none;
+		}
+		a {
+			display:block;
+			float:left;
+			padding:20px 20px 20px 20px;
+		}
+		.nav-right {
+				float:right;
+		}
+	}
+}
+.category-holder {
+	.make-sm-column(12);
+}
+.category {
+	float:left;
+	padding:20px;
+	background-color:#eee;
+	width:100%;
+	margin-bottom:20px;
+}
+
+form {
+	background-color:#eee;
+	padding:30px;
+	fieldset {
+		border:0px;
+		padding:0px;
+	}
+	ul {
+		padding:0px;
+		margin:0px;
+		li {
+			list-style:none;
+		}
+	}
+	input {
+		padding:6px;
+		border:1px solid #ccc;
+	}
+	.text {
+		width:100%;
+	}
+	label {
+		padding:0px !important;
+		margin:0px !important;
+		font-weight:bold;
+	}
+	.middleColumn {
+		margin-bottom:15px;
+	}
+	.checkbox {
+		margin-bottom:10px;
+	}
+	.action {
+		background-color:#7FC04C;
+	  border:1px solid #7FC04C;
+	  color:#FFFFFF;
+	  padding:12px 46px;
+		margin-bottom:15px;
+		&:hover {
+			background-color:#84c74f;
+			border:1px solid #84c74f;
+		}
+	}
+
+}
+
+
+
+#register {
+	.make-sm-column(14);
+}
+#register-sidebar {
+	.make-sm-column(10);
+	img {
+		width:100%;
+	}
+}
+
+
+
+
 #top-bar {
 	.make-sm-column(24);
 	font-size:12px;
@@ -60,7 +158,7 @@ body {
 	float:left;
 	width:100%;
 	background-color:#111;
-}	
+}
 #header {
 	.make-sm-column(24);
 	#logo {
@@ -96,18 +194,18 @@ body {
 					font-family:'Open Sans',sans-serif;
 					font-style:italic;
 					font-weight:bold;
-					color:#bbb;					
+					color:#bbb;
 					&:hover {
 						color:#fff;
 						background-color:#222;
 					}
-				}		
+				}
 				&:first-child a {
 					border-left:none;
 				}
 				&:last-child a {
 					border-right:none;
-				}					
+				}
 			}
 			.current a {
 				color:#fff;
@@ -133,8 +231,8 @@ body {
 			padding:0px;
 			margin:15px 0px 15px 0px;
 		}
-	}	
-	
+	}
+
 #slider {
 	float:left;
 	width:100%;
@@ -149,7 +247,7 @@ body {
 		.flex-caption {
 			.make-sm-column(24);
 			margin-top:-300px;
-		}	
+		}
 		.caption {
 			float:left;
 			padding:22px 30px 22px 30px;
@@ -159,7 +257,7 @@ body {
 				margin:0px;
 				margin-bottom:6px;
 				color:#fff;
-				font-size:32px;				
+				font-size:32px;
 			}
 			p {
 				margin:0px;
@@ -235,7 +333,7 @@ body {
 	#home-guarantee {
 		float:left;
 		width:100%;
-		padding:15px 20px 15px 20px;		
+		padding:15px 20px 15px 20px;
 		background-color:#7fc04c;
 		color:#fff;
 		h3 {
@@ -261,7 +359,7 @@ body {
 			color:#666;
 			text-decoration:none;
 		}
-	}	
+	}
 	.testimonial-slide {
 		float:left;
 	}
@@ -455,13 +553,13 @@ body {
 	width:100%;
 	background-color:#ddd;
 }
-	#page {	
+	#page {
 		padding:35px 20px 35px 20px;
 		background-color:#fff;
 		float:left;
 		width:100%;
-		margin-bottom:40px;		
-		#content {	
+		margin-bottom:40px;
+		#content {
 			.make-sm-column(18);
 			h3 {
 				color:#33A7E1;
@@ -487,9 +585,9 @@ body {
 			h3 {
 				margin:0px 0px 5px 0px;
 			}
-		}		
+		}
 		.sidebar-navigation {
-			margin:0px;padding:0px;					
+			margin:0px;padding:0px;
 			margin-bottom:35px;
 			li {
 				list-style:none;
@@ -498,12 +596,12 @@ body {
 					color:#333;
 					padding:10px;
 					padding-left:20px;
-				}						
+				}
 				a:hover {
 					text-decoration:none;
 					.arrow {
 						color:@main-color;
-					}					
+					}
 				}
 				.arrow {
 					margin-right:5px;
@@ -511,15 +609,15 @@ body {
 				.current {
 					.arrow {
 						color:@main-color;
-					}							
+					}
 				}
 				.section {
 					.arrow {
 						color:@main-color;
-					}						
-				}					
+					}
+				}
 			}
-		}				
+		}
 		#contact-left {
 			.make-sm-column(12);
 			#contact-form-header{
@@ -536,7 +634,6 @@ body {
 			#the-form {
 				border:1px solid #7f8c8d;
 				border-top:0px;
-				padding:20px;
 				background-color:#ecf0f1;
 				.text {
 					float:left;
@@ -566,18 +663,18 @@ body {
 					padding:8px;
 					.action {
 						padding:10px 45px 10px 45px;
-						background-color:#7FC04C;						
+						background-color:#7FC04C;
 						border:1px solid #7FC04C;
 						color:#fff;
 						border-radius:4px;
 						&:hover {
-							background-color:#84c74f;	
+							background-color:#84c74f;
 							border:1px solid #84c74f;
 						}
 					}
-				}	
-			}			
-		}	
+				}
+			}
+		}
 		#contact-right {
 			.make-sm-column(12);
 			ul {
@@ -585,16 +682,16 @@ body {
 				li {
 					list-style-type:none;
 				}
-			}			
+			}
 			.contact-column {
 				float:left;
 				width:50%;
 				margin-bottom:30px;
-			}	
-		
-		}		
+			}
+
+		}
 		#services-content {
-			.make-xs-column(24);			
+			.make-xs-column(24);
 			.services-button {
 				.make-xs-column(12);
 				text-decoration:none;
@@ -611,19 +708,19 @@ body {
 				h2 {
 					margin-top:7px;
 				}
-			}		
-		}	
-	}		
+			}
+		}
+	}
 #footer-background {
 	float:left;
 	width:100%;
 	background-color:#000;
-}	
+}
 	#footer {
 		.make-sm-column(24);
 		padding-top:40px;
 		padding-bottom:40px;
-		#footer-content {			
+		#footer-content {
 			#copyright {
 				margin-top:7px;
 				font-style:italic;
@@ -639,7 +736,7 @@ body {
 						&:hover {
 							text-decoration:none;
 							color:#777;
-						}	
+						}
 					}
 				}
 			}
@@ -729,7 +826,7 @@ body {
 }
 #mobile-social-links {
 	margin-top:10px;
-	text-align:center;	
+	text-align:center;
 }
 #mobile-footer {
 	display:none;
@@ -781,12 +878,12 @@ body {
 		padding:8px;
 		.action {
 			padding:10px 45px 10px 45px;
-			background-color:#7FC04C;						
+			background-color:#7FC04C;
 			border:1px solid #7FC04C;
 			color:#fff;
 			border-radius:4px;
 			&:hover {
-				background-color:#84c74f;	
+				background-color:#84c74f;
 				border:1px solid #84c74f;
 			}
 		}
@@ -830,7 +927,7 @@ body {
 	}
 }
 @media (max-width: 991px) {
-	
+
 	.store-section-small {
 		.make-xs-column(12);
 		margin-bottom:50px;
@@ -945,7 +1042,7 @@ body {
 		width:100% !important;
 		height:200px;
 		clear:both;
-	}		
+	}
 }
 @media (max-width: 767px) {
 	#page {
@@ -955,7 +1052,7 @@ body {
 			width:100%;
 			padding:5px;
 		}
-	}	
+	}
 	.services-button {
 	  	margin-bottom:30px !important;
 	  	min-height:0px !important;
@@ -1076,7 +1173,7 @@ body {
 		clear:both;
 		float:left;
 		width:100% !important;
-	}	
+	}
 }
 
 @media (max-width: 450px) {
@@ -1118,7 +1215,7 @@ body {
 		h2 {
 			clear:none;
 		}
-	}	
+	}
 }
 
 @media (max-width: 420px) {
@@ -1133,7 +1230,7 @@ body {
 	  	h2 {
 	  		font-size:22px;
 	  	}
-	}	
+	}
 
 }
 

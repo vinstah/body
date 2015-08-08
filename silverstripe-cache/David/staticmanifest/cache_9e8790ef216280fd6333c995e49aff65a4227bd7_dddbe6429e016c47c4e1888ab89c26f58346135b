@@ -1,0 +1,1 @@
+a:1:{s:13:"Registrations";a:1:{s:2:"db";a:2:{s:6:"access";i:349;s:5:"value";a:7:{s:8:"PlanType";s:12:"Varchar(254)";s:9:"FirstName";s:12:"Varchar(254)";s:7:"Surname";s:12:"Varchar(254)";s:5:"Email";s:12:"Varchar(254)";s:10:"AddressOne";s:12:"Varchar(254)";s:10:"AddressTwo";s:12:"Varchar(254)";s:5:"Phone";s:12:"Varchar(254)";}}}}

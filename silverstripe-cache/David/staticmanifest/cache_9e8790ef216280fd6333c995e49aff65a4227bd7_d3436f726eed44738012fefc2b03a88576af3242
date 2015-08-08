@@ -1,0 +1,1 @@
+a:1:{s:17:"Payment_Extension";a:2:{s:7:"has_one";a:2:{s:6:"access";i:349;s:5:"value";a:1:{s:5:"Order";s:5:"Order";}}s:14:"summary_fields";a:2:{s:6:"access";i:349;s:5:"value";a:4:{s:6:"Status";s:6:"Status";s:15:"SummaryOfAmount";s:6:"Amount";s:6:"Method";s:6:"Method";s:11:"PaidBy.Name";s:8:"Customer";}}}}

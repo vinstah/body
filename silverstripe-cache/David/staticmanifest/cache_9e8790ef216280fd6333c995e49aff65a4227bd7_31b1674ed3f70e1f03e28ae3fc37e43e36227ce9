@@ -1,0 +1,1 @@
+a:1:{s:18:"RecurringException";a:3:{s:2:"db";a:2:{s:6:"access";i:349;s:5:"value";a:1:{s:13:"ExceptionDate";s:4:"Date";}}s:7:"has_one";a:2:{s:6:"access";i:349;s:5:"value";a:1:{s:13:"CalendarEvent";s:13:"CalendarEvent";}}s:12:"default_sort";a:2:{s:6:"access";i:349;s:5:"value";s:17:"ExceptionDate ASC";}}}

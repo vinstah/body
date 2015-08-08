@@ -1,0 +1,1 @@
+a:1:{s:18:"RegistrationsAdmin";a:3:{s:14:"managed_models";a:2:{s:6:"access";i:349;s:5:"value";a:2:{i:0;s:17:"RegistrationTypes";i:1;s:13:"Registrations";}}s:11:"url_segment";a:2:{s:6:"access";i:349;s:5:"value";s:18:"registration-types";}s:10:"menu_title";a:2:{s:6:"access";i:349;s:5:"value";s:12:"Regitrations";}}}

@@ -1,0 +1,1 @@
+a:1:{s:17:"RegistrationTypes";a:1:{s:2:"db";a:2:{s:6:"access";i:349;s:5:"value";a:3:{s:3:"UID";s:12:"Varchar(254)";s:5:"Title";s:12:"Varchar(254)";s:5:"Price";s:12:"Varchar(254)";}}}}
