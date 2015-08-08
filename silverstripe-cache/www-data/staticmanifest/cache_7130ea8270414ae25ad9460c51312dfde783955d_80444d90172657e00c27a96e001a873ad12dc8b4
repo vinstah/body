@@ -1,0 +1,1 @@
+a:1:{s:30:"GridFieldBulkActionEditHandler";a:2:{s:15:"allowed_actions";a:2:{s:6:"access";i:347;s:5:"value";a:3:{i:0;s:5:"index";i:1;s:12:"bulkEditForm";i:2;s:14:"recordEditForm";}}s:12:"url_handlers";a:2:{s:6:"access";i:347;s:5:"value";a:3:{s:21:"bulkEdit/bulkEditForm";s:12:"bulkEditForm";s:23:"bulkEdit/recordEditForm";s:14:"recordEditForm";s:8:"bulkEdit";s:5:"index";}}}}

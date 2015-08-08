@@ -1,0 +1,1 @@
+a:1:{s:17:"Attribute_Default";a:3:{s:13:"singular_name";a:2:{s:6:"access";i:347;s:5:"value";s:9:"Attribute";}s:11:"plural_name";a:2:{s:6:"access";i:347;s:5:"value";s:10:"Attributes";}s:7:"has_one";a:2:{s:6:"access";i:347;s:5:"value";a:1:{s:10:"ShopConfig";s:10:"ShopConfig";}}}}

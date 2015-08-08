@@ -1,0 +1,37 @@
+[27-May-2015 07:47:13] Error at framework/model/MySQLDatabase.php line 598: Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."TempIDHash", "Member"."TempIDExpired", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."AddressOne", "Member"."AddressTwo", "Member"."Phone", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("Member"."ID" = 1)
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'Member.AddressOne' in 'field list' (http://localhost/bodybyparis/register?flush=all&flushtoken=32ef6c69dd9bfda5ac1b5593f0533e60)
+[27-May-2015 07:49:02] Error at framework/model/MySQLDatabase.php line 598: Couldn't run query: 
+SELECT DISTINCT "Member"."ClassName", "Member"."Created", "Member"."LastEdited", "Member"."FirstName", "Member"."Surname", "Member"."Email", "Member"."TempIDHash", "Member"."TempIDExpired", "Member"."Password", "Member"."RememberLoginToken", "Member"."NumVisit", "Member"."LastVisited", "Member"."AutoLoginHash", "Member"."AutoLoginExpired", "Member"."PasswordEncryption", "Member"."Salt", "Member"."PasswordExpiry", "Member"."LockedOutUntil", "Member"."Locale", "Member"."FailedLoginCount", "Member"."DateFormat", "Member"."TimeFormat", "Member"."AddressOne", "Member"."AddressTwo", "Member"."Phone", "Member"."ID", CASE WHEN "Member"."ClassName" IS NOT NULL THEN "Member"."ClassName" ELSE 'Member' END AS "RecordClassName"
+FROM "Member"
+WHERE ("Member"."ID" = 1)
+ORDER BY "Member"."Surname" ASC, "Member"."FirstName" ASC
+LIMIT 1 
+
+Unknown column 'Member.AddressOne' in 'field list' (http://localhost/bodybyparis/register?flushtoken=455005a73e347f0b6709e2e668530bb6&flush=all)
+[03-Jun-2015 07:40:15] Error at framework/model/MySQLDatabase.php line 598: Couldn't run query: 
+UPDATE "RegistrationTypes" SET "ClassName" = 'RegistrationTypes', "UID" = '50-reps', "Title" = '50 Reps for 10 days', "Price" = '200.99', "LastEdited" = '2015-06-03 07:40:15', "Created" = '2015-06-03 07:40:15' where "ID" = 1 
+
+Unknown column 'UID' in 'field list' (http://localhost/bodybyparis/admin/registration-types/RegistrationTypes/EditForm/field/RegistrationTypes/item/new/ItemEditForm)
+[26-Jul-2015 13:51:43] Error at framework/security/Member.php line 824: Uncaught ValidationException: Can't overwrite existing member #6 with identical identifier (Email = admin@code.co)) (http://localhost/bodybyparis/register/SignUp)
+[27-Jul-2015 18:08:15] Error at framework/security/Member.php line 947: Member::inGroup(): Wrong format for $group parameter (http://localhost/bodybyparis/register/SignUp)
+[27-Jul-2015 18:09:19] Error at framework/security/Member.php line 947: Member::inGroup(): Wrong format for $group parameter (http://localhost/bodybyparis/register/SignUp)
+[27-Jul-2015 18:10:27] Error at framework/security/Member.php line 947: Member::inGroup(): Wrong format for $group parameter (http://localhost/bodybyparis/register/SignUp)
+[27-Jul-2015 18:13:16] Error at framework/security/Member.php line 947: Member::inGroup(): Wrong format for $group parameter (http://localhost/bodybyparis/register/SignUp)
+[27-Jul-2015 18:13:29] Error at framework/security/Member.php line 947: Member::inGroup(): Wrong format for $group parameter (http://localhost/bodybyparis/register/SignUp)
+[27-Jul-2015 18:17:23] Error at framework/security/Member.php line 947: Member::inGroup(): Wrong format for $group parameter (http://localhost/bodybyparis/register/SignUp)
+[27-Jul-2015 18:18:05] Error at framework/model/ManyManyList.php line 204: Uncaught Exception: ManyManyList::add() can't be called until a foreign ID is set (http://localhost/bodybyparis/register/SignUp)
+[27-Jul-2015 18:18:28] Error at framework/core/Object.php line 763: Uncaught Exception: Object->__call(): the method 'seterrormessage' does not exist on 'Form' (http://localhost/bodybyparis/register/SignUp)
+[27-Jul-2015 18:18:47] Warning at framework/forms/Form.php line 515: Missing argument 1 for Form::addErrorMessage(), called in /var/www/bodybyparis/registrations/code/RegisterMemberPage.php on line 39 and defined (http://localhost/bodybyparis/register/SignUp)
+[27-Jul-2015 18:18:47] Warning at framework/forms/Form.php line 515: Missing argument 2 for Form::addErrorMessage(), called in /var/www/bodybyparis/registrations/code/RegisterMemberPage.php on line 39 and defined (http://localhost/bodybyparis/register/SignUp)
+[27-Jul-2015 18:18:47] Warning at framework/forms/Form.php line 515: Missing argument 3 for Form::addErrorMessage(), called in /var/www/bodybyparis/registrations/code/RegisterMemberPage.php on line 39 and defined (http://localhost/bodybyparis/register/SignUp)
+[27-Jul-2015 18:20:58] Error at framework/security/Member.php line 824: Uncaught ValidationException: Can't overwrite existing member #7 with identical identifier (Email = sam@sam.co.nz)) (http://localhost/bodybyparis/register/SignUp)
+[30-Jul-2015 17:53:17] Error at framework/model/ManyManyList.php line 204: Uncaught Exception: ManyManyList::add() can't be called until a foreign ID is set (http://localhost/bodybyparis/register/SignUp)
+[30-Jul-2015 17:54:11] Error at framework/security/Member.php line 824: Uncaught ValidationException: Can't overwrite existing member #8 with identical identifier (Email = vi@co.nz)) (http://localhost/bodybyparis/register/SignUp)
+[30-Jul-2015 18:09:39] Warning at framework/control/Controller.php line 464: Missing argument 1 for Controller::redirect(), called in /var/www/bodybyparis/registrations/code/RegisterMemberPage.php on line 37 and defined (http://localhost/bodybyparis/register/SignUp)
+[31-Jul-2015 08:20:48] Warning at framework/control/Controller.php line 469: Already directed to register; now trying to direct to http://localhost/bodybyparis/register/ (http://localhost/bodybyparis/register/SignUp)

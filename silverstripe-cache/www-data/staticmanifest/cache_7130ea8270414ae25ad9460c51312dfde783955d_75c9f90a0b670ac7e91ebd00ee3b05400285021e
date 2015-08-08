@@ -1,0 +1,1 @@
+a:1:{s:19:"RecurringDayOfMonth";a:3:{s:2:"db";a:2:{s:6:"access";i:347;s:5:"value";a:1:{s:5:"Value";s:3:"Int";}}s:17:"belongs_many_many";a:2:{s:6:"access";i:347;s:5:"value";a:1:{s:13:"CalendarEvent";s:13:"CalendarEvent";}}s:12:"default_sort";a:2:{s:6:"access";i:347;s:5:"value";s:9:"Value ASC";}}}

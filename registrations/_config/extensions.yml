@@ -1,0 +1,7 @@
+---
+Name: register
+---
+
+Member:
+  extensions:
+    ['MemberExtension']

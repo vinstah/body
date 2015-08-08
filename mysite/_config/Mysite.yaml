@@ -1,0 +1,13 @@
+Name: Mysite
+---
+
+PaymentGateway:
+  environment:
+    'dev'
+
+PaymentProcessor:
+  supported_methods:
+    dev:
+      - 'Cheque'
+    live:
+      - 'Cheque'

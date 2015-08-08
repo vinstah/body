@@ -1,0 +1,20 @@
+PaymentGateway:
+  environment:
+    'dev'
+
+PaymentProcessor:
+  supported_methods:
+    dev:
+      - 'PaymentExpressPxPay'
+    live:
+      - 'PaymentExpressPxPay'
+
+PaymentExpressGateway_PxPay:
+  live:
+    authentication:
+      user_id: 'PxPayUserId'
+      key: 'PxPayKey'
+  dev:
+    authentication:
+      user_id: 'BodyByParis_dev'
+      key: 'password12'
